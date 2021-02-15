@@ -1,3 +1,6 @@
+mod cube;
+
 fn main() {
-    println!("Hello, world!");
+    let test_cube = crate::cube::Cube::make_normal(5);
+    println!("Cube {}", test_cube);
 }
